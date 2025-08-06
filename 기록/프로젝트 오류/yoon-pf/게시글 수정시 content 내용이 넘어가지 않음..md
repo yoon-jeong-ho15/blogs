@@ -1,8 +1,10 @@
 ---
 tags:
   - QuillJs
+date: 2025-08-06
 ---
-# 코드
+# 문제 상황
+## 코드
 ```tsx
 "use client";
 import Quill from "quill";

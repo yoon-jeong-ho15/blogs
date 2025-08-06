@@ -2,6 +2,7 @@
 tags:
   - NextAuth
   - useSession
+date: 2025-08-06
 ---
 
 # 문제 상황
