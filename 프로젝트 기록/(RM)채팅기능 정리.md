@@ -1,6 +1,8 @@
 ---
 date: 2025-01-15
 tags:
+  - WebSocket
+  - WebRTC
 ---
 # 백엔드
 
