@@ -4,6 +4,8 @@ tags:
   - R2
   - S3
   - AWS
+title: GiveHub
+index:
 ---
 ## s3 sdk
 아마존의 AWS S3 SDK를 사용해서 R2 서비스를 이용했다.

@@ -3,6 +3,8 @@ date: 2025-08-20
 tags:
   - Supabase
   - PostgreSQL
+title: 슈파베이스 Security Definer View
+index:
 ---
 참고 :
 https://supabase.com/docs/guides/database/database-advisors?queryGroups=lint&lint=0010_security_definer_view

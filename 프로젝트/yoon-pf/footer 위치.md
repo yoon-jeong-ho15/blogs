@@ -4,6 +4,8 @@ tags:
   - CSS
   - layout
   - flex
+title: Footer 위치 고정하기
+index:
 ---
 # 문제 상황
 

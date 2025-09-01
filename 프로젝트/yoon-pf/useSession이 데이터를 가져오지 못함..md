@@ -2,9 +2,11 @@
 tags:
   - NextAuth
   - useSession
+  - React
 date: 2025-08-06
+title: useSession을 통한 인증 오류
+index:
 ---
-
 # 문제 상황
 ## 에러문
 ```

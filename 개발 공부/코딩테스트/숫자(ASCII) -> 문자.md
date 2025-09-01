@@ -5,6 +5,8 @@ tags:
   - ASCII
   - 모듈러
   - 프로그래머스
+title: ASCII -> 문자
+index:
 ---
 https://school.programmers.co.kr/learn/courses/30/lessons/155652
 

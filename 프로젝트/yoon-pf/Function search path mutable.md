@@ -3,6 +3,8 @@ date: 2025-08-20
 tags:
   - Supabase
   - PostgreSQL
+title: Function search path mutable
+index:
 ---
 참고 :
 https://supabase.com/docs/guides/database/database-advisors?queryGroups=lint&lint=0011_function_search_path_mutable

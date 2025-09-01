@@ -3,6 +3,8 @@ tags:
   - QuillJs
   - JSON
 date: 2025-08-06
+title: 직렬화 문제
+index:
 ---
 
 # 문제 상황

@@ -3,6 +3,8 @@ date: 2025-08-19
 tags:
   - remark
   - remark-breaks
+title: remark-break로 줄바꿈
+index:
 ---
 # 문제상황
 reamark 라이브러리를 사용해 md파일을 html형식으로 전환해서 블로그 글을 보여준다.

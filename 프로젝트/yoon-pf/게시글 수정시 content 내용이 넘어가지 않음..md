@@ -2,6 +2,8 @@
 tags:
   - QuillJs
 date: 2025-08-06
+title: Quill.js 이벤트 리스너
+index:
 ---
 # 문제 상황
 ## 코드

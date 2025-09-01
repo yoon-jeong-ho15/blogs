@@ -3,6 +3,8 @@ date: 2025-01-15
 tags:
   - WebSocket
   - WebRTC
+title: Real Man 채팅관련 코드 정리
+index:
 ---
 # 백엔드
 
