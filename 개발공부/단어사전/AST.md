@@ -3,14 +3,15 @@ date: 2025-08-19
 tags:
   - 자료구조
   - 트리
+  - unifiedjs
 title: AST
 index:
 ---
 참고 : 
-https://ko.wikipedia.org/wiki/%EC%B6%94%EC%83%81_%EA%B5%AC%EB%AC%B8_%ED%8A%B8%EB%A6%AC
-https://yceffort.kr/2021/05/ast-for-javascript
+[위키피디아](https://ko.wikipedia.org/wiki/%EC%B6%94%EC%83%81_%EA%B5%AC%EB%AC%B8_%ED%8A%B8%EB%A6%AC)
+[https://yceffort.kr/2021/05/ast-for-javascript](https://yceffort.kr/2021/05/ast-for-javascript)
 
-Abstract Syntax Tree, 한국어로 '추상 구문 트리'라고 한다.
+Abstract Syntax Tree, 한국어로 '*추상 구문 트리*'라고 한다.
 프로그램 코드를 트리구조로 만들어 구조화한 결과물이다.
 
 ```js
@@ -213,22 +214,22 @@ function square(n) {
 }
 ```
 ## 생성 과정
-**1단계: 토큰화 (Tokenization)**
-- 프로그래밍 언어의 문법 규칙에 따라 코드를 토큰 단위로 분해
-- 예: `const x = 10;`
-    - `const`: 변수 선언 키워드
-    - `x`: 변수명
-    - `=`: 할당 연산자
-    - `10`: 리터럴 값
-**2단계: 파싱 (Parsing)**
-- 토큰들을 문법 규칙에 따라 트리 구조로 조합
-- 각 노드는 코드의 의미적 요소를 나타냄
+1. *토큰화 Tokenization*
+	- 프로그래밍 언어의 문법 규칙에 따라 코드를 토큰 단위로 분해
+	- 예: `const x = 10;`
+	    - `const`: 변수 선언 키워드
+	    - `x`: 변수명
+	    - `=`: 할당 연산자
+		- `10`: 리터럴 값
+2. *파싱 Parsing*
+	- 토큰들을 문법 규칙에 따라 트리 구조로 조합
+	- 각 노드는 코드의 의미적 요소를 나타냄
 
 코드를 이렇게 쪼개서 트리 구조로 만들어야 컴퓨터가 코드를 이해할 수 있다고 한다.
 그래서 *IDE*를 사용할 때 IDE가 미리 문법 오류를 알아차릴 수 있게 되는것.
 그리고 궁극적으로 *컴파일러*가 고급어 코드를 기계어로 번역하고 프로그램이 컴퓨터에서 실행될 수 있게 된다.
 # unifiedjs 에서
-unified 라이브러리는 html과 md 코드를 AST로 변환하고, AST를 다시 html나 md코드로 변환하고, 그 과정에서 여러가지 처리를 할 수 있는 500개가 넘는 라이브러리의 모음이라고 한다.
+unified 라이브러리는 HTML과 Markdown 코드를 AST로 변환하고, AST를 다시 HTML이나 Markdown 코드로 변환하는 과정에서 다양한 처리를 수행할 수 있는 500개가 넘는 라이브러리들의 생태계다.
 remark는 md파일을 AST로 다룰 수 있게 하고, rehype는 html파일을 AST로 다룰 수 있게 한다.
 둘 사이에 있는 공통된 AST에 대한 규격의 통일(호환)은 모두 unified라는 전체적인 과정안에서 이루어지면서 가능하게 된다.
 
@@ -239,7 +240,7 @@ const processedContent = await remark()
 	.use(remarkRehype)
 	.use(rehypeKatex)
 	.use(rehypeStringify)
-	.process(matterResult.content;
+	.process(matterResult.content);
 
 const contentHTML = processedContent.toString();
 ```
